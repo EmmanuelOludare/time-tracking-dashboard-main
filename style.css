@@ -116,7 +116,7 @@ body {
 .category>.tabs>.time-details>h1{
     font-weight:lighter;
 }
-@media (min-width:800px) {
+@media (min-width:1000px) {
  .container{
     grid-template-columns: repeat(4,200px);
  }
