@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; color:white; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+   <content>
+     <div class="container">
+      <div class="track-tab">
+        <div class="span">
+          <img src="images/image-jeremy.png" alt="Jeremy Robson">
+          <span>
+            <p>Report for</p>
+            <figcaption>Jeremy Robson</figcaption>
+          </span>
+        </div>
+        <div class="toggle-buttons">
+          <p id="daily">Daily</p>
+          <p id="weekly">Weekly</p>
+          <p id="monthly">Monthly</p>
+        </div>
+      </div>
+
+      <div class="category category1">
+        <div  class="icon"><img src="images/icon-work.svg" alt=""></div>
+        <div class="work tabs">
+          <div class="title">
+            <h4>Work</h4>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="time-details">
+            <h1 id="work-present"></h1> <!-- daily -->
+            <p id="work-previous"></p> <!-- daily --> 
+          </div>
+        </div>
+    </div>
+  
+      <div class="category category2">
+        <div class="icon"><img src="images/icon-play.svg" alt=""></div>
+        <div class="play tabs">
+          <div class="title">
+            <h4>Play</h4>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="time-details">
+            <h1 id="play-present"></h1> <!-- daily -->
+            <p id="play-previous"></p> <!-- daily -->
+          </div>
+        </div>
+      </div>
+      
+      <div class="category category3">
+        <div class="icon"><img src="images/icon-study.svg" alt=""></div>
+        <div class="study tabs">
+          <div class="title">
+            <h4>Study</h4>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="time-details">
+            <h1 id="study-present"></h1> <!-- daily -->
+            <p id="study-previous"></p> <!-- daily -->
+          </div>
+        </div>
+      </div>
+
+      <div class="category category4">
+        <div class="icon"><img src="images/icon-exercise.svg" alt=""></div>
+        <div class="exercise tabs">
+          <div class="title">
+            <h4>Exercise</h4>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="time-details">
+            <h1 id="exercise-present"></h1><!-- daily -->
+            <p id="exercise-previous"></p> <!-- daily -->
+          </div>
+        </div>
+      </div>
+      
+      <div class="category category5">
+        <div class="icon"><img src="images/icon-social.svg" alt=""></div>
+        <div class="social tabs">
+          <div class="title">
+            <h4>Social</h4>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="time-details">
+            <h1 id="social-present"></h1> <!-- daily -->
+            <p id="social-previous"></p> <!-- daily -->
+          </div>
+        </div>
+      </div>
+  
+      <div class="category category6">
+        <div class="icon"><img src="images/icon-self-care.svg" alt=""></div>
+        <div class="self-care tabs">
+          <div class="title">
+            <h4>Self Care</h4>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="time-details">
+            <h1 id="self-care-present"></h1> <!-- daily -->
+            <p id="self-care-previous"></p> <!-- daily -->
+          </div>
+        </div>
+      </div>
+     </div>
+     <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://twitter.com/micheal_olu99" target="_blank">@hybrid</a>.
+     </div>
+   </content> 
+   <script src="script.js"></script>
+</body>
+</html>
